@@ -1,0 +1,8 @@
+### /Users/cocodrips/.gitignore-boilerplates/Global/intellij.gitignore
+
+*.iml
+*.ipr
+*.iws
+.idea/
+
+

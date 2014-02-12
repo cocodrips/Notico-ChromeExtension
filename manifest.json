@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+
+    "name": "Notico",
+    "description": "Notificate",
+    "version": "0.1",
+
+    "browser_action": {
+        "default_icon": "images/icon.png",
+        "default_popup": "popup.html"
+    },
+    "content_scripts": [
+        {
+            "matches": ["https://*/*", "http://*/*"],
+            "js": ["lib/favico.js", "script/content.js"]
+        }
+    ],
+    "permissions": [
+        "http://dp18075369.lolipop.jp/favico/example-simple/twitter.ico"
+    ]
+}
